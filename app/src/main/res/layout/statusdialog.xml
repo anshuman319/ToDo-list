@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completed ?"
+        android:textStyle="bold"
+        android:id="@+id/statusdialog_textview"
+        android:textSize="50dp"
+        android:paddingLeft="30dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/statusdialog_yes"
+        android:layout_below="@+id/statusdialog_textview"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="Yes"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/statusdialog_no"
+        android:layout_below="@+id/statusdialog_textview"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:text="No"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

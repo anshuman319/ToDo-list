@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add your data :"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/customdialog_textview"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_custom_title"
+        android:layout_below="@+id/customdialog_textview"
+        android:hint="Title:"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_custom_description"
+        android:layout_below="@+id/edittext_custom_title"
+        android:hint="Description :"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ADD"
+        android:id="@+id/button_custom_add"
+        android:layout_below="@+id/edittext_custom_description"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cutom_button_cancel"
+        android:layout_below="@+id/edittext_custom_description"
+        android:layout_marginTop="40dp"
+        android:text="CANCle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"/>
+
+
+
+</RelativeLayout>
